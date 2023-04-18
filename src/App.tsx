@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import _ from 'lodash';
 
 function App() {
+  const foo = _.filter([1], Boolean);
+  console.log(foo);
   return (
     <div className="App">
       <header className="App-header">
